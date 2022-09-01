@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    border: 2px solid black;
+    background-color: teal;
+}
+.petbox{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.find, .about, .btn{
+    margin-bottom: 40px;
+    margin-left: 175px;
+    margin-right: 0px;
+    font-style: initial;
+    
+}
+h1{ 
+    font-size: 35px;
+    color: white;
+}
+.find, .about{
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    color: rebeccapurple;
+    background-color: whitesmoke;
+    border: 1px rebeccapurple solid;
+    border-radius: 40%;
+    height: 35px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.petbox-2{
+    margin-top: 0px;
+    width: 1000px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.pext{
+    width: 350px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+}
+.info{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.dojobox{
+    margin-top: 40px;
+}
+.textbox{
+    width: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: flex-end;
+}
+.cats{
+    height: 150px;
+    width:100px;
+}
+.definedyou{
+    width: 500px;
+    margin-left: 40px;
+}
+.likesbtn1, .likesbtn2, .likesbtn3{
+    color: white;
+    border: 3px solid black;
+    background-color: teal;
+    box-shadow: 4px 4px black;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.findbf{
+    height: 30px;
+    font-size: medium;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
+.numlikes{ 
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.paw{
+    height: 20px;
+    width: 30px;
+    margin-left: 300px;
+}
+.pin{
+    height: 20px;
+    width: 30px;
+    margin-left: 120px;
+}
+.findbf{
+    margin-left: 100px;
+}
+h2{ 
+    font-size: 30px;
+}

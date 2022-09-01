@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" href="yellowbelt.css">
+</head>
+<body>
+    <div class="everything">
+        <div class="nav">
+            <div class="petbox">
+                <img src="assets/heart-light.png" alt="heart=light">
+                <h1 class="nav-title"> Pet Shelter </h1>
+                    <ul class="nav-links">
+                        <li class="find">Find a Pet</li>
+                        <li class="about">About</li>
+                        <li><button class="btn" onclick="hidedonate(this)">Donate</button></li>
+                    </ul>
+            </div>
+            <div class="pext">
+                <ul class="info">
+                    <li> I'm looking for a...</li>
+                    <li> in or near </li>
+                </ul>
+            </div>
+            <div class="petbox-2">
+                <img src="assets/paw-light.png" alt=" paw-light" class="paw">
+                <div class="petlocation">
+                    <select name="favpet" onchange="message(value)">
+                        <option>Any Pet</option>
+                        <option>Cat</option>
+                        <option>Dog</option>
+                    </select>
+                </div>
+                <div>
+                    <img src="assets/pin-light.png" alt="pin-light" class="pin"><input class=Search type="text" name="search" placeholder="City or Zip Code">
+                </div>
+                <div>
+                    <button class="findbf">Find your new bestfriend</button>
+                </div>
+            </div>
+        </div>
+        <div class="dojobox">
+            <div class="textbox">
+                <div><img src="assets/pepper.jpg" alt="pepper" class="cats"></div>
+                <div class="definedyou">
+                    <h2> Pepper </h2>
+                        <p>Pepper is a slightly shy grey tabby, but she <br> really loves showing her human affection.</p>
+                </div>
+                <div class="numlikes">
+                    <span id="likes-1"> 3 petting(s)</span>
+                        <button class="likesbtn1" onclick="like(0)">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="textbox">
+                <div><img src="assets/bruce.jpg" alt="bruce" class="cats"></div>
+                <div class="definedyou">
+                    <h2> Bruce </h2>
+                        <p> Bruce is loyal companion. He loves long <br> walks and cold weather. </p>
+                </div>
+                    <div class="numlikes"> 
+                    <span id="likes-2"> 5 petting(s)</span>
+                        <button class="likesbtn2" onclick="like(1)">Pet Bruce</button>
+                    </div>
+            </div>
+            <div class="textbox">
+                <div><img src="assets/oscar.jpg" alt="oscar" class="cats"></div>
+                <div class="definedyou">
+                    <h2> Oscar </h2>
+                        <p> Oscar is bright, energetic and friendly. He is <br> looking for a good home.</p> 
+                </div>
+                    <div class="numlikes">
+                    <span id="likes-3"> 8 petting(s)</span>
+                        <button class="likesbtn3" onclick="like(2)">Pet Oscar</button>
+                    </div>
+            </div>
+        </div>  
+    </div> 
+    <script src="yellowbelt.js"></script>
+</body>
+</html>
+
